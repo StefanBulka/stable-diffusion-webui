@@ -71,7 +71,7 @@ printf "\n%s\n" "${delimiter}"
     printf "\n%s\n" "${delimiter}"
     printf "Running on \e[1m\e[32m%s\e[0m user" "$(whoami)"
     printf "\n%s\n" "${delimiter}"
-fi
+#fi
 
 if [[ -d .git ]]
 then
